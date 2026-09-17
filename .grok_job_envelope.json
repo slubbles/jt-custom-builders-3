@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "executor": "grok_build",
+  "job_id": 3,
+  "project_id": 3,
+  "task_preview": "[PLAYBOOK_FORCE_LOADED] title=Identical clone (URL or image): section specs \u2192 sectioned dispatch \u2192 visual gate\nPLAYBOOK_MARKER=identical_clone_url_image_v5\nS3: Follow this playbook; do not freestyle invent process.\nEXECUTOR: PL Factory (force-load \u2192 specialist). Shadcn Space materialize is NON-NEGOTIABLE \u2014 vault as inspiration only = fail. From-scratch new clients unless operator continues a named",
+  "created_at": "2026-09-17T16:51:08+00:00",
+  "updated_at": "2026-09-17T16:51:08+00:00",
+  "status": "running",
+  "resume": false,
+  "resume_from": null,
+  "auth_mode": "piped_openai",
+  "stages": [
+    {
+      "id": "prepare",
+      "label": "Prepare workdir & session",
+      "status": "done",
+      "updated_at": "2026-09-17T16:51:08+00:00",
+      "note": "workdir ready"
+    },
+    {
+      "id": "craft",
+      "label": "Specialist craft (Grok Build CLI)",
+      "status": "active",
+      "kind": "craft",
+      "updated_at": "2026-09-17T16:51:08+00:00"
+    },
+    {
+      "id": "finalize",
+      "label": "Stabilize DEPLOY_URL & result",
+      "status": "pending"
+    }
+  ],
+  "current_stage": "craft",
+  "deploy_url": null,
+  "cli_runs": 0,
+  "rule": "S6 richer Grok job: staged envelope + mid-run progress + stable DEPLOY_URL; SuperGrok session default; same project_id/workdir for resume. One CLI is one craft; STAGE/STEP text is hints, not extra crafts."
+}

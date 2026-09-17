@@ -1,0 +1,48 @@
+{
+  "lead_id": "3d5f38933b864b0580bf79c5dd50f678",
+  "brief": {
+    "schema": "genesis_brief/v1",
+    "contact": {
+      "name": "JT Prospect",
+      "email": "info@jtcustombuilders.com",
+      "phone": "240-651-4200",
+      "company": "JT Custom Builders"
+    },
+    "existing_site": {
+      "has_site": true,
+      "url": "https://jtcustombuilders.com/",
+      "preference": "verbatim_migrate"
+    },
+    "brand": {
+      "name": "JT Custom Builders",
+      "tagline": "Relationship-focused home builder serving central Maryland",
+      "about": "CONTENT PARITY 100%: Recreate JT Custom Builders from https://jtcustombuilders.com/ \u2014 keep ALL of their real copy, phone 240-651-4200, email info@jtcustombuilders.com, Facebook/Instagram, Central Maryland positioning, custom homes + remodeling, Revival Design + Build mention, awards (Energy Star, Maryland Builders, HERS, EPA RRP, 2-10). Do NOT invent Casa membership, $199/mo, Bay Area, or other brands. LOOK: match visual quality of getcasa.com and nor.ma (premium builder site), not their current WordPress theme. Analyze JT for content/photos/nav; analyze look refs for design only. Core pages only (not blog/employment/full sitemap)."
+    },
+    "reference_urls": [
+      "https://getcasa.com",
+      "https://nor.ma"
+    ],
+    "reference_source": "lead",
+    "styles": [
+      "modern",
+      "sophisticated"
+    ],
+    "style_notes": "Visual refs = Casa + NOR.MA. Source of copy/photos/services = jtcustombuilders.com only. Multipage core UI: Home, Custom Homes, Additions, Garages, Remodel, Projects, About, Start/Estimate. Include real project photography from JT. GitHub repo of the code required.",
+    "colors": {
+      "mode": "designer_choose",
+      "palette": null
+    },
+    "scope": "multipage",
+    "pages": [
+      "/",
+      "/custom-home-building-in-maryland/",
+      "/additions/",
+      "/garages/",
+      "/remodeling/",
+      "/category/projects/",
+      "/about/",
+      "/estimate/"
+    ],
+    "consent": true
+  }
+}

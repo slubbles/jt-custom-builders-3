@@ -1,0 +1,4 @@
+# Job-local Grok project overlay — not the PL-factory TUI session
+[plugins]
+enabled = []
+disabled_mcp_servers = ["Roblox_Studio", "context7", "playwright", "browser-use"]

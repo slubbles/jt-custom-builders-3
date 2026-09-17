@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-paper: #FCFBF7;
+  --color-paper-2: #F5F3EE;
+  --color-cream: #F1EFE8;
+  --color-cream-2: #EDEBE3;
+  --color-ink: #141413;
+  --color-ink-60: #5A5A56;
+  --color-ink-40: #8A8A86;
+  --color-line: #E8E6E0;
+  --color-accent: #C9A86A;
+  --color-accent-2: #B89555;
+  --color-stone: #2B2B2A;
+  --color-mist: #F9F8F5;
+  --font-sans: var(--font-instrument-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-newsreader), ui-serif, Georgia, serif;
+  --font-display: var(--font-newsreader), ui-serif, Georgia, serif;
+  --ease-luxe: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+:root {
+  --paper: #FCFBF7;
+  --ink: #141413;
+}
+
+* { scrollbar-width: thin; scrollbar-color: #C9A86A #F1EFE8; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.font-display { font-family: var(--font-display); letter-spacing: -0.025em; font-weight: 400; line-height: 0.98; }
+.font-serif { font-family: var(--font-serif); }
+
+.glass {
+  backdrop-filter: blur(20px) saturate(1.4);
+  -webkit-backdrop-filter: blur(20px) saturate(1.4);
+  background: rgba(20, 20, 19, 0.36);
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+.glass-light {
+  backdrop-filter: blur(16px) saturate(1.2);
+  -webkit-backdrop-filter: blur(16px) saturate(1.2);
+  background: rgba(252,251,247,0.84);
+  border: 1px solid rgba(20,20,19,0.08);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 9999px;
+  padding: 7px 12px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+.prose-jt p { color: rgba(20,20,19,0.68); line-height: 1.75; font-size: 15px; }
+.prose-jt p + p { margin-top: 14px; }
+
+/* subtle grain */
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.04;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='0.6'/%3E%3C/svg%3E");
+  mix-blend-mode: multiply;
+}

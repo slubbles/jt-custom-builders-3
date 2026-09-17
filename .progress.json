@@ -1,0 +1,11 @@
+{
+  "status": "Grok Build starting\u2026",
+  "updated_at": "2026-09-17T16:51:08+00:00",
+  "executor": "grok_build",
+  "phase": "start",
+  "stage": "craft",
+  "stage_index": 1,
+  "stages_total": 3,
+  "resume": false,
+  "cli_runs": 0
+}
